@@ -7,16 +7,40 @@
   <title>Leaderboard List</title>
 </head>
 <body>
-  <header class="title">
-    <h1>Leaderboard</h1>
-  </header>
-  <section class="score">
-    <div class="score-list">
+  <main>
+    <div class="leaderboard">
+      <header class="title">
+        <h1>Leaderboard</h1>
+      </header>
+      <section class="score">
+        <div class="score-list">
+          <div class="list-title">
+            <h2>Recent scores</h2>
+            <button class="refreshBtn">Refresh</button>
+          </div>
+          <div class="list-table">
+            <table class="list-record">
+              <tbody id="ourList"><tr><td>--- The leaderboard is empty ---</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="gap">
 
+        </div>
+        <div class="score-add">
+          <div class="add-title">
+            <h2>Add your score</h2>
+          </div>
+          <div class="add-form">
+            <form id="addForm">
+              <input type="text" id="name" placeholder="Your name" required>
+              <input type="text" id="score" placeholder="Your score" required>
+              <button id="addButton" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="score-add">
-
-    </div>
-  </section>
+  </main>
 </body>
 </html>

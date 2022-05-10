@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaderboard {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.score-list {
+  grid-column: 1;
+  padding: 10px;
+}
+
+.gap {
+  grid-column: 2;
+}
+
+.score-add {
+  grid-column: 3;
+  padding: 10px;
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.refreshBtn {
+  padding: 5px;
+  height: max-content;
+}
+
+.list-record {
+  width: 100%;
+  border: 2px solid #000;
+  border-spacing: 0;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+#addForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#score {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#addButton {
+  padding: 5px;
+  width: max-content;
+  align-self: end;
+}
+
+td {
+  padding: 5px;
+}
