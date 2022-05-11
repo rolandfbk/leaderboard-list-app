@@ -16,11 +16,13 @@
         <div class="score-list">
           <div class="list-title">
             <h2>Recent scores</h2>
-            <button class="refreshBtn">Refresh</button>
+            <button class="refreshBtn"  id="refreshBtn">Refresh</button>
           </div>
           <div class="list-table">
             <table class="list-record">
-              <tbody id="ourList"><tr><td>--- The leaderboard is empty ---</td></tr></tbody>
+              <tbody id="ourList">
+
+              </tbody>
             </table>
           </div>
         </div>
@@ -32,9 +34,9 @@
             <h2>Add your score</h2>
           </div>
           <div class="add-form">
-            <form id="addForm">
+            <form id="addForm" method="post">
               <input type="text" id="name" placeholder="Your name" required>
-              <input type="text" id="score" placeholder="Your score" required>
+              <input type="number" id="score" placeholder="Your score" required>
               <button id="addButton" type="submit">Submit</button>
             </form>
           </div>
