@@ -20,7 +20,7 @@
 >- Git Bash
 
 ## Setup
->- Git clone `https://github.com/rolandfbk/to-do-list.git`
+>- Git clone `https://github.com/rolandfbk/leaderboard-list-app.git`
 
 ## Usage
 >- npm install
